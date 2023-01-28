@@ -6,7 +6,7 @@ const PORT=4001||process.env.PORT
 const app=exprss()
 
 app.get("/",(req,res)=>{
-    res.send("server is running")
+    res.send("server is running good")
 })
 const server=http.createServer(app)
 
