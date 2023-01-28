@@ -1,0 +1,65 @@
+.joinPage{
+    background-color: rgb(73, 54, 54);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinContainer{
+    /* border: 1px solid white; */
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.joinContainer>img{
+  width: 100px;
+  line-height: 5px;
+}
+.joinContainer>h1{
+    /* line-height: 5px; */
+    color: white;
+    width: 20vmax;
+    text-align: center;
+    border-bottom: 2px solid white;
+  }
+.joinContainer>h1>.logo{
+    font-family: cursive;
+}
+.joinContainer>input{
+    width: 19vmax;
+    /* padding: 10px; */
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 1vmax;
+}
+.joinContainer>input:focus{
+   border: none;
+   outline: none;
+   border-bottom: 5px solid gray;
+}
+.log_btn{
+    width: 20vmax;
+    /* padding: 10px; */
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(71, 66, 66);
+    transition: all .3s;
+}
+.log_btn:hover{
+    background-color: rgb(138, 235, 138);
+    /* outline: none; */
+    color: black;
+    border: inherit;
+    font-size: 22px;
+    padding: 6px;
+    font-weight: 700;
+
+
+}

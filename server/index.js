@@ -11,7 +11,7 @@ app.get("/",(req,res)=>{
 const server=http.createServer(app)
 
 const Io=socketIo(server)
-
+Io.on("connection",()=>console.log("new connection"))
 server.listen(PORT,()=>{
     console.log("server is running on PORT",PORT)
 })
